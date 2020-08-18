@@ -40,8 +40,8 @@ namespace Backend
 		        Tuple.Create("Slovakia",5424925),
 		        Tuple.Create("Kyrgyzstan",5418300),
 		        Tuple.Create("Lithuania",3329039),
-		        Tuple.Create("United States of America",309349689)
-            };
+				Tuple.Create("United States of America",309349689) //Note the format issue between this and U.S.A.
+			};
         }
 
 

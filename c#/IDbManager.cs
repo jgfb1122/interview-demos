@@ -10,5 +10,7 @@ namespace Backend
     public interface IDbManager
     {
         DbConnection getConnection();
+        Dictionary<string,int> getDataFromDB(DbConnection connection);
+        Task<Dictionary<string, int>> getDataFromDBAsync(DbConnection connection);
     }
 }
